@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Appei</string>
+    <string name="API_KEY">AIzaSyCmmXOLpbXsSaW4LZCiA2WoiNY30ozI7RE</string>
+    <string name="username_hint">Email</string>
+    <string name="password_hint">Senha</string> <!-- Mantendo apenas uma definição -->
+    <string name="login_button_text">Entrar</string>
+    <string name="login_button_description">Botão para login</string>
+    <string name="google_sign_in_button_text">Continuar com o Google</string>
+    <string name="google_sign_in_button_description">Botão de login com Google</string>
+
+
+    <string name="entrar_como_visitante">Entrar como Visitante</string>
+    <string name="sign_up_button_text">Cadastrar-se</string>
+    <string name="sign_up_button_description">Botão para cadastrar-se</string>
+    <string name="name_hint">Nome</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_password_hint">Confirmar Senha</string>
+    <string name="default_web_client_id">571781426998-jd4a5lrvc0hrab0jnuj3e0rukk1dfnd2.apps.googleusercontent.com</string>
+
+
+    <string name="app_name">Bioma Amazônico</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+    <string name="open">Abrir menu</string>
+    <string name="close">Fechar menu</string>
+    <string name="welcome_message">Bem-vindo, %1$s</string>
+
+    <string name="welcome_message_text">Bem-vindo ao aplicativo, %1$s!</string>
+    <string name="carousel_image_description">Imagem de exemplo de carrossel</string>
+    <string name="carousel_image_desc">Imagem do carrossel de fotos</string>
+
+    <string-array name="categorias_array">
+        <item>Todos</item>
+        <item>Fauna</item>
+        <item>Flora</item>
+    </string-array>
 </resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+
+
+    <!-- Cabeçalho fixo no topo -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:fontFamily="sans-serif-medium"
+        android:padding="16dp"
+        android:text="Sustentabilidade"
+        android:textAlignment="center"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="26sp" />
+
+    <!-- Conteúdo rolável -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Texto principal -->
+            <TextView
+                android:id="@+id/textoprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <!-- Primeira imagem e seção de texto -->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:src="@drawable/img1_susten"
+                android:contentDescription="Imagem de práticas sustentáveis"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/subtitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <!-- Segunda imagem e seção de texto -->
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img2_susten"
+                android:contentDescription="Imagem sobre o tripé da sustentabilidade"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/subtitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <!-- Terceira imagem e seção de texto -->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img3_susten"
+                android:contentDescription="Imagem de energia renovável"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/subtitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <!-- Quarta imagem e seção de texto -->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img4_susten"
+                android:contentDescription="Imagem sobre agricultura sustentável"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/subtitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <!-- Quinta imagem e seção de texto -->
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_susten"
+                android:contentDescription="Imagem sobre conservação da água"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/subtitulo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:paddingBottom="16dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
